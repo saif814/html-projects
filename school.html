@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Heritage International Public School - Kasia Kushinagar</title>
+  <style>
+    /* General Reset */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: "Segoe UI", Arial, sans-serif;
+      line-height: 1.6;
+      background: #f9f9f9;
+      color: #333;
+    }
+
+    header {
+    background: url("https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?auto=format&fit=crop&w=1600&q=80") center/cover no-repeat;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+    position: relative;
+    }
+
+
+    header::after {
+      content: "";
+      position: absolute;
+      top: 0; left: 0;
+      width: 100%; height: 100%;
+      background: rgba(0, 64, 128, 0.6);
+    }
+
+    header h1, header p {
+      position: relative;
+      z-index: 1;
+    }
+
+    header h1 {
+      font-size: 48px;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      font-size: 20px;
+    }
+
+    /* Navbar */
+    nav {
+      background: #004080;
+      position: sticky;
+      top: 0;
+      z-index: 10;
+      padding: 15px;
+      text-align: center;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 20px;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: #ffcc00;
+    }
+
+    /* Sections */
+    section {
+      padding: 50px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    section h2 {
+      text-align: center;
+      margin-bottom: 20px;
+      font-size: 32px;
+      color: #004080;
+    }
+
+    section p {
+      font-size: 18px;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    /* Cards (for Academics & Admissions) */
+    .card-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 20px;
+      margin-top: 20px;
+    }
+
+    .card {
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      text-align: center;
+      transition: transform 0.3s;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+    }
+
+    /* Contact Section */
+    #contact p {
+      font-size: 18px;
+      margin: 10px 0;
+    }
+
+    /* Footer */
+    footer {
+      background: #004080;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+
+    footer p {
+      font-size: 14px;
+    }
+
+    /* Responsive Text */
+    @media(max-width: 768px) {
+      header h1 {
+        font-size: 32px;
+      }
+      header p {
+        font-size: 16px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <!-- Hero Section -->
+  <header>
+    <h1>Heritage International Public School</h1>
+    <p>Kasia Kushinagar</p>
+  </header>
+
+  <!-- Navigation -->
+  <nav>
+    <a href="#about">About</a>
+    <a href="#academics">Academics</a>
+    <a href="#admissions">Admissions</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <!-- About Section -->
+  <section id="about">
+    <h2>About Us</h2>
+    <p>Heritage International Public School, Kasia Kushinagar, is dedicated to providing quality education, holistic development, and strong values to students. Our mission is to nurture young minds into future leaders.</p>
+  </section>
+
+  <!-- Academics Section -->
+  <section id="academics">
+    <h2>Academics</h2>
+    <p>We follow a modern curriculum with focus on Science, Mathematics, Arts, and Sports. Our classrooms are technology-enabled, ensuring interactive and engaging learning.</p>
+    <div class="card-container">
+      <div class="card">
+        <h3>Science & Technology</h3>
+        <p>State-of-the-art labs with modern equipment to encourage innovation and curiosity.</p>
+      </div>
+      <div class="card">
+        <h3>Mathematics</h3>
+        <p>Building logical and analytical thinking through interactive teaching methods.</p>
+      </div>
+      <div class="card">
+        <h3>Arts & Sports</h3>
+        <p>Equal importance to creativity and physical development alongside academics.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Admissions Section -->
+  <section id="admissions">
+    <h2>Admissions</h2>
+    <p>Admissions are open for the academic year 2025-26. For inquiries, please visit our campus or contact us.</p>
+    <div class="card-container">
+      <div class="card">
+        <h3>Eligibility</h3>
+        <p>Admissions open for classes Nursery to Class XII.</p>
+      </div>
+      <div class="card">
+        <h3>How to Apply</h3>
+        <p>Download the admission form or visit the school office during working hours.</p>
+      </div>
+      <div class="card">
+        <h3>Important Dates</h3>
+        <p>Application window closes on 30th April 2025.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p><strong>Address:</strong> Heritage International Public School, Kasia, Kushinagar, Uttar Pradesh</p>
+    <p><strong>Phone:</strong> +91-9876543210</p>
+    <p><strong>Email:</strong> info@heritageschool.edu</p>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Heritage International Public School, Kasia Kushinagar. All Rights Reserved.</p>
+  </footer>
+</body>
+</html>
