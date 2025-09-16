@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mini HTML Encyclopedia</title>
+</head>
+<body>
+  <header>
+    <h1>🌍 Mini HTML Encyclopedia</h1>
+    <p>A project to showcase my <strong>HTML skills</strong> — no CSS, no JS, just pure HTML power!</p>
+    <nav>
+      <a href="#animals">Animals</a> | 
+      <a href="#planets">Planets</a> | 
+      <a href="#tech">Technology</a>
+    </nav>
+    <hr>
+  </header>
+
+  <!-- Animals Section -->
+  <section id="animals">
+    <h2>🐘 Animals</h2>
+    <details>
+      <summary><strong>Elephant</strong></summary>
+      <p>The elephant is the largest land animal. Its trunk is a versatile tool used for breathing, grasping objects, and making sounds.</p>
+      <figure>
+        <img src="https://via.placeholder.com/200" alt="Elephant Image">
+        <figcaption>An Elephant (Placeholder Image)</figcaption>
+      </figure>
+      <audio controls>
+        <source src="elephant-sound.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+      </audio>
+    </details>
+    <details>
+      <summary><strong>Lion</strong></summary>
+      <blockquote>
+        "A lion is called the king of the jungle, not because it is the strongest, but because of its courage." — <cite>Unknown</cite>
+      </blockquote>
+      <video width="300" controls>
+        <source src="lion.mp4" type="video/mp4">
+        Your browser does not support video.
+      </video>
+    </details>
+  </section>
+  <hr>
+
+  <!-- Planets Section -->
+  <section id="planets">
+    <h2>🪐 Planets</h2>
+    <table border="1" cellpadding="8">
+      <caption>Planets in Our Solar System</caption>
+      <thead>
+        <tr>
+          <th>Planet</th>
+          <th>Distance from Sun (AU)</th>
+          <th>Moons</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Mercury</td>
+          <td>0.39</td>
+          <td>0</td>
+        </tr>
+        <tr>
+          <td>Earth</td>
+          <td>1.00</td>
+          <td>1</td>
+        </tr>
+        <tr>
+          <td>Jupiter</td>
+          <td>5.20</td>
+          <td>79+</td>
+        </tr>
+      </tbody>
+    </table>
+    <p>Earth’s progress around the sun:</p>
+    <progress value="75" max="100"></progress>
+  </section>
+  <hr>
+
+  <!-- Tech Section -->
+  <section id="tech">
+    <h2>💻 Technology</h2>
+    <p>Famous <abbr title="HyperText Markup Language">HTML</abbr> tags include:</p>
+    <ul>
+      <li><mark>&lt;header&gt;</mark> — defines page headers</li>
+      <li><mark>&lt;section&gt;</mark> — groups related content</li>
+      <li><mark>&lt;details&gt;</mark> — adds interactive disclosure</li>
+    </ul>
+
+    <p>Technology usage worldwide:</p>
+    <meter value="70" min="0" max="100">70%</meter> Internet penetration
+
+    <p>Embedded Example (YouTube):</p>
+    <iframe width="300" height="200" src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="Tech Video"></iframe>
+  </section>
+
+  <!-- Contact Form -->
+  <section>
+    <h2>📩 Contact the Author</h2>
+    <form>
+      <label for="name">Name:</label>
+      <input type="text" id="name" required><br><br>
+      <label for="email">Email:</label>
+      <input type="email" id="email" required><br><br>
+      <label for="fav">Favorite HTML tag:</label>
+      <select id="fav">
+        <option>&lt;header&gt;</option>
+        <option>&lt;footer&gt;</option>
+        <option>&lt;section&gt;</option>
+        <option>&lt;details&gt;</option>
+      </select><br><br>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <footer>
+    <hr>
+    <p>© 2025 Mini HTML Encyclopedia | Built only with <strong>HTML5</strong></p>
+  </footer>
+</body>
+</html>
