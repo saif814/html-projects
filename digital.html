@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Digital Resume Card</title>
+  <style>
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      margin: 0;
+      background: linear-gradient(135deg, #74ebd5, #9face6);
+      font-family: Arial, sans-serif;
+    }
+
+    .card {
+      background: white;
+      padding: 20px;
+      width: 320px;
+      border-radius: 15px;
+      box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+      text-align: center;
+    }
+
+    .card img {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      margin-bottom: 15px;
+      border: 3px solid #74ebd5;
+    }
+
+    .card h1 {
+      margin: 10px 0;
+      font-size: 24px;
+      color: #333;
+    }
+
+    .card h2 {
+      margin: 5px 0;
+      font-size: 16px;
+      font-weight: normal;
+      color: #666;
+    }
+
+    .card p {
+      font-size: 14px;
+      color: #444;
+      margin: 15px 0;
+    }
+
+    .skills {
+      display: flex;
+      justify-content: space-around;
+      margin: 15px 0;
+    }
+
+    .skills span {
+      background: #74ebd5;
+      color: #fff;
+      padding: 6px 10px;
+      border-radius: 20px;
+      font-size: 12px;
+    }
+
+    .links a {
+      text-decoration: none;
+      color: white;
+      background: #9face6;
+      padding: 10px 15px;
+      border-radius: 8px;
+      margin: 5px;
+      display: inline-block;
+      transition: background 0.3s;
+    }
+
+    .links a:hover {
+      background: #74ebd5;
+    }
+
+    footer {
+      margin-top: 15px;
+      font-size: 12px;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <img src="https://dummyimage.com/100x100/cccccc/000000&text=100x100" alt="Placeholder">
+    <h1>Saif Sidd</h1>
+    <h2>Web Developer</h2>
+    <p>Passionate about building modern web experiences with clean HTML, CSS, and JavaScript.</p>
+
+    <div class="skills">
+      <span>HTML</span>
+      <span>CSS</span>
+      <span>JS</span>
+    </div>
+
+    <div class="links">
+      <a href="#">Portfolio</a>
+      <a href="#">Contact</a>
+    </div>
+
+    <footer>
+      © 2025 Saif Sidd
+    </footer>
+  </div>
+</body>
+</html>
